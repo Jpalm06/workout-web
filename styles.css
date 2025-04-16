@@ -1,0 +1,127 @@
+/* General Page Styles */
+body {
+  background-color: #f1f1f1; /* Light background for the whole page */
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark gray text for readability */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+.nav {
+  background-color: #007bff; /* Blue background for nav bar */
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+
+.nav a {
+  color: #fff; /* White text for navigation links */
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+.nav a:hover {
+  color: #ff9800; /* Orange color on hover for links */
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  padding: 80px 20px 20px; /* Padding for spacing, extra for fixed navbar */
+  background-color: #ffffff; /* White background for the intro */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 80px 20px 30px; /* Margin to avoid overlapping with nav */
+}
+
+.intro h1 {
+  color: #007bff; /* Blue heading */
+  font-size: 2.5em;
+}
+
+.intro p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Workout List */
+.lists {
+  background-color: #e0f7fa; /* Light cyan background for lists */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.lists h2 {
+  color: #007bff; /* Blue text for the heading */
+  font-size: 2em;
+}
+
+.lists ol, .lists ul {
+  font-size: 1.2em;
+}
+
+.lists li {
+  margin: 10px 0;
+}
+
+/* Image Section */
+.image-section img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Video Section */
+.video-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.video-section h2 {
+  color: #007bff; /* Blue text for video title */
+  font-size: 2em;
+}
+
+iframe {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  margin: 20px 0;
+}
+
+/* Tableau Section */
+.tableau-section {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tableau-section h2 {
+  color: #007bff; /* Blue text for Tableau section title */
+  font-size: 2em;
+}
+
+/* Footer */
+footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 50px;
+}
